@@ -1,0 +1,43 @@
+<svg class="ill" viewBox="0 0 400 260" role="img" aria-labelledby="tautres" xmlns="http://www.w3.org/2000/svg">
+<title id="tautres">Chantier intérieur : cloison en plaques de plâtre, bande de peinture fraîche, rouleau et bac</title>
+<rect width="400" height="260" fill="#12253C"/>
+<defs><clipPath id="cAut"><rect width="400" height="260"/></clipPath></defs>
+<g clip-path="url(#cAut)">
+<rect x="-10" y="-10" width="420" height="232" fill="#DCD6CB"/>
+<g stroke="#BFB8AA" stroke-width="2.5">
+<line x1="128" y1="-10" x2="128" y2="222"/><line x1="286" y1="-10" x2="286" y2="222"/>
+<line x1="-10" y1="88" x2="410" y2="88"/>
+</g>
+<g fill="#C9C2B4">
+<circle cx="128" cy="40" r="3"/>
+<circle cx="128" cy="152" r="3"/>
+<circle cx="286" cy="24" r="3"/>
+<circle cx="286" cy="130" r="3"/>
+<circle cx="60" cy="88" r="3"/>
+<circle cx="210" cy="88" r="3"/>
+<circle cx="350" cy="88" r="3"/>
+</g>
+<path d="M150 -10 h96 v232 h-96 z" fill="#F2F6F9"/>
+<path d="M150 -10 q6 40 -2 78 q-7 38 3 74 q9 36 -1 80 v-232 z" fill="#E6EDF3"/>
+<path d="M246 -10 q-7 44 2 84 q8 38 -3 76 q-9 34 1 72 v-232 z" fill="#E6EDF3"/>
+<rect x="146" y="104" width="104" height="34" rx="17" fill="#E1712C"/>
+<rect x="146" y="104" width="104" height="34" rx="17" fill="none" stroke="#8C3C0C" stroke-width="2.5"/>
+<g stroke="#7B8894" stroke-width="2" opacity=".55">
+<path d="M158 106 v30"/>
+<path d="M169 106 v30"/>
+<path d="M180 106 v30"/>
+<path d="M191 106 v30"/>
+<path d="M202 106 v30"/>
+<path d="M213 106 v30"/>
+<path d="M224 106 v30"/>
+<path d="M235 106 v30"/>
+</g>
+<path d="M250 121 h26 v34" fill="none" stroke="#8C9AA6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M276 155 L372 244" stroke="#C9924F" stroke-width="14" stroke-linecap="round"/>
+<path d="M276 155 L372 244" stroke="#8A6031" stroke-width="14" stroke-linecap="round" stroke-opacity=".25" stroke-dasharray="3 26"/>
+<rect x="-10" y="214" width="420" height="60" fill="#0E1F35"/>
+<path d="M-10 224 q70 -16 140 -2 q70 14 140 -2 q70 -16 140 4 v50 h-420 z" fill="#8C9AA6" fill-opacity=".45"/>
+<path d="M34 232 h96 l-10 26 h-76 z" fill="#2A5075"/>
+<path d="M44 236 h76 l-6 15 h-64 z" fill="#E1712C" fill-opacity=".85"/>
+</g>
+</svg>
