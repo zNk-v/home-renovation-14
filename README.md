@@ -10,7 +10,8 @@ Angle imposé : **couvreur d'abord**, les autres corps de métier en second plan
 
 | Section | Contenu |
 |---------|---------|
-| Hero | Positionnement, deux promesses du flyer, téléphone, illustration toiture |
+| Hero | Photo de toiture plein cadre, urgence 24h/24, téléphone, trois arguments |
+| Atouts | Bande blanche à quatre colonnes juste sous le hero : urgence, fuite, devis, décennale |
 | Toiture | 4 prestations, chacune avec son illustration |
 | Coupe interactive | 6 repères cliquables sur une coupe de rampant (l'élément signature), **montée couche par couche au scroll** |
 | Climat de la côte | Vent d'ouest, air salé, humidité + bandeau littoral — le contenu non transposable |
@@ -62,12 +63,17 @@ L'annuaire des entreprises donne **22 rue Surcouf, 53500 Ernée** (Mayenne).
 Il faut demander à Christopher laquelle est la bonne et, si besoin, mettre à jour
 l'adresse à l'INSEE. Le site affiche Ouistreham.
 
-### 4. Assurance et code d'activité
+### 4. Coordonnées de l'assurance décennale
 
-Le code NAF déclaré est **43.34Z, travaux de peinture et vitrerie**, pas couverture.
-Aucune mention de décennale ou de RC pro n'apparaît sur le site tant que
-l'attestation n'est pas fournie — les blocs à compléter sont signalés en orange dans
-[mentions-legales.html](mentions-legales.html).
+La garantie décennale est annoncée sur le site : bande des atouts, FAQ, pied de page et
+mentions légales. Il manque les trois informations que l'article L.241-1 du Code des
+assurances rend obligatoires sur les devis et factures, et qu'il faut donc aussi porter
+ici : **nom de l'assureur, numéro de contrat, couverture géographique**. Le bloc est
+signalé en orange dans [mentions-legales.html](mentions-legales.html).
+
+À noter : le code NAF déclaré à l'INSEE reste **43.34Z, travaux de peinture et vitrerie**.
+Ça n'empêche pas d'exercer la couverture ni d'être assuré pour, mais un client qui vérifie
+le SIREN verra « peinture ». Ça vaut le coup de faire ajouter l'activité de couverture.
 
 ### 5. Délai de réponse
 
@@ -136,6 +142,8 @@ img/gen_cards.py               sources des 6 illustrations de section
 img/_hero.svg   img/_cut.svg   hero et coupe, générés
 img/ill-*.svg                  illustrations de section, générées
 img/favicon.svg  favicon.ico  img/apple-touch-icon.png
+img/hero-toiture.jpg           photo du hero, 1800 px
+img/hero-toiture-900.jpg       même photo, servie sous 600 px de large
 og-image.jpg                   1200×630, aperçu WhatsApp / Messenger
 robots.txt  sitemap.xml
 mentions-legales.html  politique-confidentialite.html
@@ -167,3 +175,6 @@ des six repères ; si la coupe change, il faut recopier ces pourcentages dans le
   déclenchés par un `IntersectionObserver` à 30 % de visibilité. Sans JavaScript,
   ou en `prefers-reduced-motion`, tout s'affiche d'emblée.
 - Un seul numéro de téléphone sur toute la page : `tel:+33658941908`.
+- Hero photo : contraste calculé dans le pire cas, c'est-à-dire un pixel de photo blanc pur
+  sous le voile dégradé. 15,4:1 à gauche où se pose le titre, 5,7:1 au bord droit du bloc
+  de texte. AA tenu sur toute la largeur, quelle que soit la zone de l'image dessous.

@@ -430,3 +430,129 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   .coupe-fig.anim-prete .cch,
   .coupe-fig.anim-prete .hot{opacity:1;transform:none;transition:none}
 }
+
+/* ============================================================
+   Urgence 24h/24 — les quatre arguments qui font décrocher
+   ============================================================ */
+
+/* mention collée au bouton d'appel de l'en-tête */
+.hdr-247{
+  display:flex;flex-direction:column;line-height:1.15;text-align:right;
+  font-family:var(--display);text-transform:uppercase;letter-spacing:.08em;
+  font-size:11px;color:rgba(255,255,255,.6);font-weight:600;
+}
+.hdr-247 b{font-size:14px;color:var(--tuile-clair);letter-spacing:.05em;font-weight:700}
+@media (max-width:860px){.hdr-247{display:none}}
+
+/* bandeau urgence dans le hero */
+.urgence-pill{
+  display:inline-flex;align-items:center;gap:11px;flex-wrap:wrap;
+  background:rgba(225,113,44,.15);border:1px solid rgba(240,164,112,.55);
+  border-radius:999px;padding:11px 20px 11px 17px;margin:0 0 22px;
+  font-size:15.5px;color:var(--tuile-clair);
+}
+.urgence-pill b{color:#fff;font-weight:700}
+.pastille{
+  width:11px;height:11px;border-radius:50%;background:var(--tuile);flex:none;
+  box-shadow:0 0 0 0 rgba(225,113,44,.75);animation:battement 2.2s infinite;
+}
+@keyframes battement{
+  0%{box-shadow:0 0 0 0 rgba(225,113,44,.7)}
+  70%{box-shadow:0 0 0 11px rgba(225,113,44,0)}
+  100%{box-shadow:0 0 0 0 rgba(225,113,44,0)}
+}
+@media (prefers-reduced-motion:reduce){.pastille{animation:none}}
+
+/* la bande des quatre atouts, juste sous le hero */
+.atouts{background:var(--blanc);border-bottom:1px solid var(--sable)}
+.atouts-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:0;
+  padding-top:44px;padding-bottom:44px;
+}
+.atout{padding:0 28px;border-left:1px solid var(--sable)}
+.atout:first-child{border-left:0;padding-left:0}
+.atout:last-child{padding-right:0}
+.atout-ico{color:var(--tuile-fonce);margin-bottom:14px}
+.atout h2{
+  font-family:var(--display);text-transform:uppercase;font-weight:700;
+  font-size:21px;line-height:1.05;letter-spacing:.01em;color:var(--ardoise);margin-bottom:9px;
+}
+.atout p{font-size:15px;line-height:1.55;color:var(--galet)}
+
+/* le premier atout porte l'accent : c'est l'argument le plus fort */
+.atout-247 .atout-ico{color:var(--tuile-fonce)}
+.atout-247 h2{color:var(--tuile-fonce)}
+
+.atouts-cta{
+  display:flex;align-items:center;justify-content:center;gap:12px;
+  background:var(--tuile-fonce);color:#fff;text-decoration:none;
+  padding:17px 20px;font-size:17px;font-weight:600;text-align:center;
+}
+.atouts-cta b{font-family:var(--display);font-weight:700;font-size:23px;letter-spacing:.03em;
+  font-variant-numeric:tabular-nums;vertical-align:-1px;margin-left:4px}
+.atouts-cta:hover{background:#993f0b}
+.atouts-cta svg{flex:none}
+
+@media (max-width:920px){
+  .atouts-grid{grid-template-columns:repeat(2,1fr);gap:32px 0;padding-top:38px;padding-bottom:38px}
+  .atout:nth-child(odd){border-left:0;padding-left:0}
+  .atout:nth-child(even){padding-right:0}
+}
+@media (max-width:560px){
+  .atouts-grid{grid-template-columns:1fr;gap:28px}
+  .atout{border-left:0;padding:0}
+  .atout::before{content:"";display:block;width:34px;height:3px;background:var(--tuile);margin-bottom:16px}
+  .atouts-cta{flex-direction:column;gap:4px;font-size:16px}
+}
+
+/* barre sticky mobile sur deux lignes */
+@media (max-width:768px){
+  :root{--sticky-h:70px}
+  .sticky-tel{height:70px;flex-direction:column;gap:2px;line-height:1.05}
+  .sticky-num{display:flex;align-items:center;gap:9px}
+  .sticky-lab{
+    font-family:var(--corps);font-size:11.5px;font-weight:700;letter-spacing:.09em;
+    text-transform:uppercase;color:rgba(255,255,255,.9);
+  }
+}
+
+/* ============================================================
+   Hero photo — la vraie toiture, avec voile de lisibilité
+   ============================================================ */
+.hero{position:relative;isolation:isolate}
+.hero-photo{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;object-position:36% 46%;z-index:0;
+  /* Image retournée : le phare passe à droite, dégagé du texte, et la masse
+     sombre de la toiture vient se placer derrière lui. */
+  transform:scaleX(-1);
+}
+/* Le voile n'est pas décoratif : c'est lui qui tient le contraste AA du texte.
+   Opaque à gauche où se pose le texte, il s'ouvre à droite sur l'ardoise. */
+.hero-voile{
+  position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:
+    linear-gradient(96deg,
+      rgba(11,25,42,.94) 0%,
+      rgba(11,25,42,.88) 36%,
+      rgba(13,31,52,.68) 56%,
+      rgba(16,38,63,.34) 76%,
+      rgba(18,42,68,.20) 100%),
+    linear-gradient(to top, rgba(11,25,42,.62) 0%, rgba(11,25,42,0) 42%);
+}
+.hero-in{position:relative;z-index:2;display:block;padding:78px 0 84px}
+.hero-txt{max-width:620px}
+
+/* Sous 900 px, le voile écrasait la photo. On la sort du fond : elle devient un
+   bandeau plein en haut du hero, et le texte reprend un fond plein derrière lui. */
+@media (max-width:900px){
+  .hero{display:flex;flex-direction:column;background:var(--ardoise-nuit)}
+  .hero picture{display:block;order:-1}
+  .hero-photo{position:static;width:100%;height:230px;object-position:34% 44%}
+  .hero-voile{display:none}
+  .hero-in{padding:38px 0 54px}
+}
+@media (max-width:520px){
+  .hero-photo{height:190px}
+}
+}
