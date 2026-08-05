@@ -11,26 +11,33 @@ carrelage existent, groupés dans une bande secondaire clairement subordonnée.
 
 ---
 
-## 1. Palette (issue du logo du flyer)
+## 1. Palette (relevée sur le logo vectoriel du client)
 
 | Token | Hex | Rôle | Contraste |
 |-------|-----|------|-----------|
-| `--ardoise` | `#1B3A5F` | Marine du logo. Ardoise mouillée. Titres, en-tête, sections profondes. | 10,8:1 sur `--nacre` ✓ AAA |
-| `--ardoise-nuit` | `#12253C` | Ardoise à contre-jour. Footer, section contact, fond du hero. | 15:1 ✓ AAA |
-| `--tuile` | `#E1712C` | Orange du logo. **Graphique uniquement** : filets, carrés-repères, icônes, soulignement d'onglet actif. | 3,6:1 sur `--ardoise` ✓ AA non-textuel |
-| `--tuile-fonce` | `#B34E12` | Orange assombri. **Boutons pleins** avec texte blanc. | blanc dessus 5,2:1 ✓ AA |
-| `--tuile-clair` | `#F0A470` | Orange éclairci. Petits textes d'accent sur fond marine. | 5,6:1 sur `--ardoise` ✓ AA |
+| `--ardoise` | `#10305C` | Marine du logo, Ardoise mouillée, Titres, sections profondes, | 11,75:1 sur `--nacre` ✓ AAA |
+| `--ardoise-nuit` | `#081F41` | Ardoise à contre-jour, En-tête, hero, contact, footer, | 14,65:1 sur `--nacre` ✓ AAA |
+| `--tuile` | `#F26205` | Orange du logo, **Graphique uniquement** : filets, carrés-repères, icônes, pastille d'urgence, | 5,09:1 sur `--ardoise-nuit` ✓ AA non-textuel |
+| `--tuile-fonce` | `#C24A02` | Orange assombri, **Boutons pleins** avec texte blanc, | blanc dessus 4,91:1 ✓ AA |
+| `--tuile-clair` | `#FBA36A` | Orange éclairci, Petits textes d'accent sur fond marine, | 8,22:1 sur `--ardoise-nuit` ✓ AA |
 | `--nacre` | `#F5F2EC` | Blanc coquillage tiède, côte de Nacre. Fond de page. | — |
 | `--galet` | `#5C6875` | Gris galet. Texte secondaire, légendes. | 5,1:1 sur `--nacre` ✓ AA |
 | `--sable` | `#E4DED2` | Sable de Sword Beach. Filets, séparateurs, fonds de cartes. | — |
 
-**Deux oranges, une raison.** L'orange de marque `#E1712C` ne passe pas AA en texte blanc
-(3,2:1). Plutôt que de le tordre, je le garde pur pour tout ce qui est graphique et
-j'assombris à `#B34E12` pour les boutons pleins. Le client reconnaît son orange, le
+**Deux oranges, une raison.** L'orange de marque `#F26205` ne passe pas AA en texte blanc
+(3,22:1). Plutôt que de le tordre, je le garde pur pour tout ce qui est graphique et
+j'assombris à `#C24A02` pour les boutons pleins. Le client reconnaît son orange, le
 malvoyant lit le bouton.
 
+**D'où viennent ces valeurs.** La première version du site était calée sur une photo du
+flyer papier, donc sur des couleurs ternies par l'impression et l'éclairage. Le logo
+vectoriel fourni ensuite donne les vraies : marine `#002048`, orange `#F86008`. Le marine
+pur est presque noir et alourdissait les grandes surfaces, l'orange pur ne passe pas en
+petit texte : la palette du site les reprend en les ouvrant d'un cran, sans changer de
+teinte. Côte à côte, le logo et les boutons sont maintenant du même orange.
+
 **Pourquoi ça évite les interdits :** pas de crème + serif + terracotta, pas de dégradé
-SaaS, pas de glassmorphism. Le duo marine/orange sort du flyer que Teddy a en main.
+SaaS, pas de glassmorphism. Le duo marine/orange est celui du client.
 
 ---
 
@@ -84,6 +91,12 @@ la gouttière et les lignes de rappel. Chaque groupe glisse de 30 px perpendicul
 au rampant, avec 130 ms d'écart. Les six repères apparaissent après, une fois le toit
 monté. L'état masqué n'est posé que par le JavaScript : sans lui, la coupe reste
 entièrement visible. `prefers-reduced-motion` court-circuite l'ensemble.
+
+**Le logo.** Seul le pictogramme est utilisé, jamais la version avec le lettrage : le nom
+est déjà composé à côté, en Barlow Condensed. Ses aplats blancs et son marine profond
+disparaîtraient sur l'en-tête sombre, il est donc posé sur une pastille `--nacre` — le même
+rapport clair/sombre que sur le flyer. Le favicon reprend le motif central, la maison au
+toit orange et le couvreur sur son échelle, seule partie qui reste lisible à 32 px.
 
 Tissu conjonctif : chaque surtitre de section est précédé d'un **petit carré orange plein**
 suivi d'un filet `--sable` de 1 px. Rappel du bloc de toit orange du logo. Répété, discret.

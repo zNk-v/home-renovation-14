@@ -5,9 +5,9 @@
 <g class="cch" style="--d:0">
 <rect x="-6" y="43" width="562" height="9" fill="#DCD6CB" stroke="#8E8A80" stroke-width="1"/>
 </g>
-<rect x="-6" y="14.5" width="562" height="28.5" fill="#E1712C" fill-opacity=".13"/>
+<rect x="-6" y="14.5" width="562" height="28.5" fill="#F26205" fill-opacity=".13"/>
 <g class="cch" style="--d:1">
-<g clip-path="url(#clipIso)" stroke="#F5B98C" stroke-opacity=".6" stroke-width="2">
+<g clip-path="url(#clipIso)" stroke="#FBC49B" stroke-opacity=".6" stroke-width="2">
 <line x1="-40" y1="14.5" x2="-68.5" y2="43"/>
 <line x1="-25" y1="14.5" x2="-53.5" y2="43"/>
 <line x1="-10" y1="14.5" x2="-38.5" y2="43"/>
@@ -104,18 +104,18 @@
 <path d="M53.8 431.8 a23 23 0 0 0 46 0 z" fill="#8C9AA6"/>
 <path d="M53.8 431.8 a23 23 0 0 0 46 0" fill="none" stroke="#CBD5DD" stroke-width="2.8" stroke-linecap="round"/>
 </g>
-<g class="rappels cch" style="--d:8" stroke="#E1712C" stroke-opacity=".65" stroke-width="1.6" stroke-linecap="round">
+<g class="rappels cch" style="--d:8" stroke="#F26205" stroke-opacity=".65" stroke-width="1.6" stroke-linecap="round">
 <line x1="195.4" y1="316.4" x2="163.5" y2="263.3"/>
-<circle cx="195.4" cy="316.4" r="2.6" fill="#E1712C" stroke="none"/>
+<circle cx="195.4" cy="316.4" r="2.6" fill="#F26205" stroke="none"/>
 <line x1="287" y1="274.8" x2="319" y2="327.9"/>
-<circle cx="287" cy="274.8" r="2.6" fill="#E1712C" stroke="none"/>
+<circle cx="287" cy="274.8" r="2.6" fill="#F26205" stroke="none"/>
 <line x1="363.6" y1="237.2" x2="331.7" y2="184.1"/>
-<circle cx="363.6" cy="237.2" r="2.6" fill="#E1712C" stroke="none"/>
+<circle cx="363.6" cy="237.2" r="2.6" fill="#F26205" stroke="none"/>
 <line x1="436.5" y1="212.9" x2="468.5" y2="266.1"/>
-<circle cx="436.5" cy="212.9" r="2.6" fill="#E1712C" stroke="none"/>
+<circle cx="436.5" cy="212.9" r="2.6" fill="#F26205" stroke="none"/>
 <line x1="496.1" y1="177.1" x2="464.2" y2="124"/>
-<circle cx="496.1" cy="177.1" r="2.6" fill="#E1712C" stroke="none"/>
+<circle cx="496.1" cy="177.1" r="2.6" fill="#F26205" stroke="none"/>
 <line x1="76.8" y1="443.8" x2="62" y2="398"/>
-<circle cx="76.8" cy="443.8" r="2.6" fill="#E1712C" stroke="none"/>
+<circle cx="76.8" cy="443.8" r="2.6" fill="#F26205" stroke="none"/>
 </g>
 </svg>

@@ -1,6 +1,6 @@
 <svg class="ill" viewBox="0 0 400 260" role="img" aria-labelledby="tentretien" xmlns="http://www.w3.org/2000/svg">
 <title id="tentretien">Pan de toiture en ardoise, une ardoise déposée laissant voir le liteau</title>
-<rect width="400" height="260" fill="#12253C"/>
+<rect width="400" height="260" fill="#081F41"/>
 <g clip-path="url(#cEnt)">
 <defs><clipPath id="cEnt"><rect width="400" height="260"/></clipPath></defs>
 <rect x="-10" y="60" width="420" height="14" fill="#C9924F" stroke="#7F5A2C" stroke-width="1"/>
@@ -149,8 +149,8 @@
 <path d="M371.0 229 h36 v12.0 a18.0 18.0 0 0 1 -36 0 z" fill="#3B6D9E" fill-opacity="1" stroke="#A8CBE6" stroke-opacity=".45" stroke-width="1.2"/>
 <path d="M405.0 229 h36 v12.0 a18.0 18.0 0 0 1 -36 0 z" fill="#3B6D9E" fill-opacity="1" stroke="#A8CBE6" stroke-opacity=".45" stroke-width="1.2"/>
 <g transform="translate(238 28) rotate(-16) scale(1.5)">
-<path d="M0 0 h36 v12.0 a18.0 18.0 0 0 1 -36 0 z" fill="#E1712C" fill-opacity="1" stroke="#A8CBE6" stroke-opacity=".45" stroke-width="1.2"/>
+<path d="M0 0 h36 v12.0 a18.0 18.0 0 0 1 -36 0 z" fill="#F26205" fill-opacity="1" stroke="#A8CBE6" stroke-opacity=".45" stroke-width="1.2"/>
 </g>
-<path d="M232 74 q10 -16 14 -26" stroke="#F0A470" stroke-width="2.4" fill="none" stroke-dasharray="5 5" stroke-linecap="round"/>
+<path d="M232 74 q10 -16 14 -26" stroke="#FBA36A" stroke-width="2.4" fill="none" stroke-dasharray="5 5" stroke-linecap="round"/>
 </g>
 </svg>

@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<rect width="1200" height="630" fill="#12253C"/>
+<rect width="1200" height="630" fill="#081F41"/>
 <g transform="translate(600,40) scale(1.28)">
 <title id="heroArtT">Toiture en ardoise avec fenêtre de toit, souche de cheminée et gouttière zinc, le phare de Ouistreham au fond</title>
 <defs>
 <linearGradient id="gSlope" x1=".15" y1="0" x2=".55" y2="1"><stop offset="0" stop-color="#31608F"/><stop offset="1" stop-color="#1C3B5F"/></linearGradient>
 <linearGradient id="gWall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#15304E"/><stop offset="1" stop-color="#102640"/></linearGradient>
-<linearGradient id="gBeam" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#F0A470" stop-opacity=".30"/><stop offset="1" stop-color="#F0A470" stop-opacity="0"/></linearGradient>
+<linearGradient id="gBeam" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#FBA36A" stop-opacity=".30"/><stop offset="1" stop-color="#FBA36A" stop-opacity="0"/></linearGradient>
 </defs>
 <line x1="0" y1="286" x2="560" y2="286" stroke="#ffffff" stroke-opacity=".13"/>
 <g stroke="#ffffff" stroke-opacity=".06" stroke-linecap="round" stroke-width="2">
@@ -32,8 +32,8 @@
 <g>
 <path d="M504 286 L516 166 L530 166 L540 286 Z" fill="#22456B"/>
 <rect x="512" y="157" width="22" height="10" fill="#22456B"/>
-<rect x="517" y="136" width="12" height="21" fill="#2C5480"/>
-<rect x="517" y="141" width="12" height="7" fill="#E1712C" fill-opacity=".9"/>
+<rect x="517" y="136" width="12" height="21" fill="#24548F"/>
+<rect x="517" y="141" width="12" height="7" fill="#F26205" fill-opacity=".9"/>
 </g>
 <path d="M18 330 L418 382 L418 440 L18 440 Z" fill="url(#gWall)"/>
 <rect x="74" y="363.3" width="46" height="52" rx="2" fill="#0B1B2E"/>
@@ -158,19 +158,19 @@
 <rect x="332.3" y="149.7" width="13" height="17" rx="1" fill="#93A3B1"/>
 <rect x="351.3" y="146.7" width="13" height="17" rx="1" fill="#93A3B1"/>
 </g>
-<path d="M150 168 L474 208" stroke="#E1712C" stroke-width="7" stroke-linecap="round"/>
+<path d="M150 168 L474 208" stroke="#F26205" stroke-width="7" stroke-linecap="round"/>
 <path d="M18 330 L150 168" stroke="#0E2138" stroke-width="5" stroke-linecap="round"/>
 <path d="M474 208 L418 382" stroke="#0E2138" stroke-width="5" stroke-linecap="round"/>
 <path d="M18 330 L418 382" stroke="#93A3B1" stroke-width="9" stroke-linecap="round"/>
 <path d="M18 337.5 L418 389.5" stroke="#5E7284" stroke-width="4" stroke-linecap="round"/>
 <path d="M415 386 L415 440" stroke="#6E8091" stroke-width="7" stroke-linecap="round"/>
 </g>
-<rect x="0" y="0" width="9" height="630" fill="#E1712C"/>
-<text x="72" y="150" font-family="Barlow Condensed, Arial Narrow, sans-serif" font-size="26" font-weight="700" letter-spacing="4" fill="#F0A470">COUVREUR — OUISTREHAM &amp; CÔTE DE NACRE</text>
+<rect x="0" y="0" width="9" height="630" fill="#F26205"/>
+<text x="72" y="150" font-family="Barlow Condensed, Arial Narrow, sans-serif" font-size="26" font-weight="700" letter-spacing="4" fill="#FBA36A">COUVREUR — OUISTREHAM &amp; CÔTE DE NACRE</text>
 <text x="72" y="248" font-family="Barlow Condensed, Arial Narrow, sans-serif" font-size="86" font-weight="700" fill="#FFFFFF">HOME RÉNOVATION 14</text>
 <text x="72" y="330" font-family="Public Sans, Helvetica, sans-serif" font-size="30" fill="#D4DEE8">Entretien, démoussage, réparation</text>
 <text x="72" y="374" font-family="Public Sans, Helvetica, sans-serif" font-size="30" fill="#D4DEE8">et recherche de fuite de toiture</text>
-<rect x="72" y="432" width="392" height="72" rx="5" fill="#B34E12"/>
+<rect x="72" y="432" width="392" height="72" rx="5" fill="#C24A02"/>
 <text x="104" y="480" font-family="Barlow Condensed, Arial Narrow, sans-serif" font-size="42" font-weight="700" fill="#FFFFFF">06 58 94 19 08</text>
-<text x="72" y="556" font-family="Public Sans, Helvetica, sans-serif" font-size="24" font-weight="600" fill="#F0A470">Devis et déplacement gratuits</text>
+<text x="72" y="556" font-family="Public Sans, Helvetica, sans-serif" font-size="24" font-weight="600" fill="#FBA36A">Devis et déplacement gratuits</text>
 </svg>

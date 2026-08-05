@@ -5,13 +5,13 @@ une photo. Ils tiennent la place tant qu'il n'y a pas de vraies photos de
 chantier — voir README, section « Photos ».
 """
 
-NUIT = '#12253C'
+NUIT = '#081F41'
 ARD = '#3B6D9E'
 ARD_F = '#2A5075'
 ARD_C = '#5D93C2'
 LISERE = '#A8CBE6'
-TUILE = '#E1712C'
-TUILE_C = '#F0A470'
+TUILE = '#F26205'
+TUILE_C = '#FBA36A'
 BOIS = '#C9924F'
 ZINC = '#8C9AA6'
 ZINC_C = '#CBD5DD'
@@ -119,7 +119,7 @@ c.append('</g>')
 # charpente + isolant
 c.append(f'<rect x="-10" y="72" width="420" height="9" fill="#B9CEDD"/>')
 c.append(f'<rect x="-10" y="81" width="420" height="46" fill="{TUILE}" fill-opacity=".13"/>')
-c.append('<g stroke="#F5B98C" stroke-opacity=".45" stroke-width="2">')
+c.append('<g stroke="#FBC49B" stroke-opacity=".45" stroke-width="2">')
 for x in range(-40, 440, 16):
     c.append(f'<line x1="{x}" y1="81" x2="{x-46}" y2="127"/>')
 c.append('</g>')
@@ -157,7 +157,7 @@ for hx in (60, 200, 340):
 # descente
 c.append(f'<path d="M262 96 q0 22 -22 26 h-8" fill="none" stroke="{ZINC}" stroke-width="17" stroke-linecap="round"/>')
 c.append(f'<rect x="-10" y="98" width="420" height="172" fill="#1B3350"/>')
-c.append('<g stroke="#12253C" stroke-width="2.5">')
+c.append('<g stroke="#081F41" stroke-width="2.5">')
 for _yy in (128, 160, 192, 224, 256):
     c.append(f'<line x1="-10" y1="{_yy}" x2="410" y2="{_yy}"/>')
 for _r, _y in enumerate((113, 145, 177, 209, 241)):
@@ -177,7 +177,7 @@ svg('zinguerie', 400, 260, c,
 W, H = 1000, 300
 c = [f'<defs><clipPath id="cCli"><rect width="{W}" height="{H}"/></clipPath>'
      f'<linearGradient id="gCiel" x1="0" y1="0" x2="0" y2="1">'
-     f'<stop offset="0" stop-color="#16304E"/><stop offset="1" stop-color="{NUIT}"/></linearGradient></defs>',
+     f'<stop offset="0" stop-color="#0B2853"/><stop offset="1" stop-color="{NUIT}"/></linearGradient></defs>',
      '<g clip-path="url(#cCli)">',
      f'<rect width="{W}" height="{H}" fill="url(#gCiel)"/>']
 # rafales
@@ -255,7 +255,7 @@ c.append('<path d="M150 -10 q6 40 -2 78 q-7 38 3 74 q9 36 -1 80 v-232 z" fill="#
 c.append('<path d="M246 -10 q-7 44 2 84 q8 38 -3 76 q-9 34 1 72 v-232 z" fill="#E6EDF3"/>')
 # rouleau : manchon, étrier, manche
 c.append(f'<rect x="146" y="104" width="104" height="34" rx="17" fill="{TUILE}"/>')
-c.append(f'<rect x="146" y="104" width="104" height="34" rx="17" fill="none" stroke="#8C3C0C" stroke-width="2.5"/>')
+c.append(f'<rect x="146" y="104" width="104" height="34" rx="17" fill="none" stroke="#9B3B02" stroke-width="2.5"/>')
 c.append('<g stroke="#7B8894" stroke-width="2" opacity=".55">')
 for _x in range(158, 246, 11):
     c.append(f'<path d="M{_x} 106 v30"/>')
@@ -266,7 +266,7 @@ c.append(f'<path d="M276 155 L372 244" stroke="{BOIS}" stroke-width="14" stroke-
 c.append(f'<path d="M276 155 L372 244" stroke="#8A6031" stroke-width="14" stroke-linecap="round" '
          'stroke-opacity=".25" stroke-dasharray="3 26"/>')
 # sol : bâche et bac à peinture
-c.append(f'<rect x="-10" y="214" width="420" height="60" fill="#0E1F35"/>')
+c.append(f'<rect x="-10" y="214" width="420" height="60" fill="#05162F"/>')
 c.append(f'<path d="M-10 224 q70 -16 140 -2 q70 14 140 -2 q70 -16 140 4 v50 h-420 z" fill="{ZINC}" fill-opacity=".45"/>')
 c.append(f'<path d="M34 232 h96 l-10 26 h-76 z" fill="{ARD_F}"/>')
 c.append(f'<path d="M44 236 h76 l-6 15 h-64 z" fill="{TUILE}" fill-opacity=".85"/>')

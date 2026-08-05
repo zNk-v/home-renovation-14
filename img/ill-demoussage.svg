@@ -1,6 +1,6 @@
 <svg class="ill" viewBox="0 0 400 260" role="img" aria-labelledby="tdemoussage" xmlns="http://www.w3.org/2000/svg">
 <title id="tdemoussage">Toiture en ardoise, moitié gauche envahie de mousse, moitié droite nettoyée</title>
-<rect width="400" height="260" fill="#12253C"/>
+<rect width="400" height="260" fill="#081F41"/>
 <defs><clipPath id="cDem"><rect width="400" height="260"/></clipPath><linearGradient id="gSale" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4E6636"/><stop offset="1" stop-color="#6E8A4C"/></linearGradient></defs>
 <g clip-path="url(#cDem)">
 <path d="M-20 6 h36 v12.0 a18.0 18.0 0 0 1 -36 0 z" fill="#3B6D9E" fill-opacity="1" stroke="#A8CBE6" stroke-opacity=".45" stroke-width="1.2"/>
@@ -288,6 +288,6 @@
 <ellipse cx="141" cy="208" rx="10.6" ry="6.6" fill="#6E8A4C" fill-opacity="0.42"/>
 <ellipse cx="101" cy="128" rx="7.8" ry="4.8" fill="#6E8A4C" fill-opacity="0.77"/>
 </g>
-<path d="M186 -4 L150 264" stroke="#E1712C" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M186 -4 L150 264" stroke="#F26205" stroke-width="3.5" stroke-linecap="round"/>
 </g>
 </svg>

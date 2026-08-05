@@ -1,7 +1,7 @@
 <svg class="ill" viewBox="0 0 1000 300" role="img" aria-labelledby="tclimat" xmlns="http://www.w3.org/2000/svg">
 <title id="tclimat">Rangée de maisons normandes à toiture d'ardoise face à la Manche, vent et embruns, le phare au fond</title>
-<rect width="1000" height="300" fill="#12253C"/>
-<defs><clipPath id="cCli"><rect width="1000" height="300"/></clipPath><linearGradient id="gCiel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16304E"/><stop offset="1" stop-color="#12253C"/></linearGradient></defs>
+<rect width="1000" height="300" fill="#081F41"/>
+<defs><clipPath id="cCli"><rect width="1000" height="300"/></clipPath><linearGradient id="gCiel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B2853"/><stop offset="1" stop-color="#081F41"/></linearGradient></defs>
 <g clip-path="url(#cCli)">
 <rect width="1000" height="300" fill="url(#gCiel)"/>
 <g stroke="#5D93C2" stroke-opacity=".28" stroke-width="2.5" stroke-linecap="round" fill="none">
@@ -34,7 +34,7 @@
 <path d="M846 176 L858 58 L874 58 L886 176 Z" fill="#22456B"/>
 <rect x="853" y="48" width="26" height="11" fill="#22456B"/>
 <rect x="859" y="25" width="14" height="23" fill="#2A5075"/>
-<rect x="859" y="30" width="14" height="8" fill="#E1712C" fill-opacity=".9"/>
+<rect x="859" y="30" width="14" height="8" fill="#F26205" fill-opacity=".9"/>
 <g fill="none" stroke="#C8DAE9" stroke-opacity=".45" stroke-width="2.4" stroke-linecap="round">
 <path d="M560 62 q10 -10 20 0 q10 -10 20 0"/><path d="M632 38 q7 -7 14 0 q7 -7 14 0"/>
 </g>
@@ -46,7 +46,7 @@
 <line x1="22" y1="182" x2="128" y2="182" stroke="#A8CBE6" stroke-opacity=".22" stroke-width="1.4"/>
 <line x1="40" y1="187" x2="110" y2="187" stroke="#A8CBE6" stroke-opacity=".22" stroke-width="1.4"/>
 <line x1="58" y1="191" x2="92" y2="191" stroke="#A8CBE6" stroke-opacity=".22" stroke-width="1.4"/>
-<path d="M-30 196 L75.0 168.4 L180 196" fill="none" stroke="#E1712C" stroke-opacity=".85" stroke-width="4" stroke-linejoin="round"/>
+<path d="M-30 196 L75.0 168.4 L180 196" fill="none" stroke="#F26205" stroke-opacity=".85" stroke-width="4" stroke-linejoin="round"/>
 <rect x="-30" y="196" width="210" height="104" fill="#2B4358"/>
 <rect x="-30" y="196" width="210" height="5" fill="#8C9AA6" fill-opacity=".7"/>
 <rect x="0" y="222" width="42" height="50" rx="2" fill="#16293D"/>
@@ -83,7 +83,7 @@
 <line x1="448" y1="175" x2="542" y2="175" stroke="#A8CBE6" stroke-opacity=".22" stroke-width="1.4"/>
 <line x1="463" y1="180" x2="527" y2="180" stroke="#A8CBE6" stroke-opacity=".22" stroke-width="1.4"/>
 <line x1="479" y1="185" x2="511" y2="185" stroke="#A8CBE6" stroke-opacity=".22" stroke-width="1.4"/>
-<path d="M400 190 L495.0 160.6 L590 190" fill="none" stroke="#E1712C" stroke-opacity=".85" stroke-width="4" stroke-linejoin="round"/>
+<path d="M400 190 L495.0 160.6 L590 190" fill="none" stroke="#F26205" stroke-opacity=".85" stroke-width="4" stroke-linejoin="round"/>
 <rect x="400" y="190" width="190" height="110" fill="#2B4358"/>
 <rect x="400" y="190" width="190" height="5" fill="#8C9AA6" fill-opacity=".7"/>
 <rect x="430" y="216" width="42" height="50" rx="2" fill="#16293D"/>
@@ -120,7 +120,7 @@
 <line x1="840" y1="180" x2="940" y2="180" stroke="#A8CBE6" stroke-opacity=".22" stroke-width="1.4"/>
 <line x1="857" y1="185" x2="923" y2="185" stroke="#A8CBE6" stroke-opacity=".22" stroke-width="1.4"/>
 <line x1="873" y1="189" x2="907" y2="189" stroke="#A8CBE6" stroke-opacity=".22" stroke-width="1.4"/>
-<path d="M790 194 L890.0 165.8 L990 194" fill="none" stroke="#E1712C" stroke-opacity=".85" stroke-width="4" stroke-linejoin="round"/>
+<path d="M790 194 L890.0 165.8 L990 194" fill="none" stroke="#F26205" stroke-opacity=".85" stroke-width="4" stroke-linejoin="round"/>
 <rect x="790" y="194" width="200" height="106" fill="#2B4358"/>
 <rect x="790" y="194" width="200" height="5" fill="#8C9AA6" fill-opacity=".7"/>
 <rect x="820" y="220" width="42" height="50" rx="2" fill="#16293D"/>

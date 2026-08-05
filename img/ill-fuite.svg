@@ -1,6 +1,6 @@
 <svg class="ill" viewBox="0 0 400 260" role="img" aria-labelledby="tfuite" xmlns="http://www.w3.org/2000/svg">
 <title id="tfuite">Coupe montrant le trajet d'une infiltration, d'une ardoise fendue jusqu'à la tache au plafond</title>
-<rect width="400" height="260" fill="#12253C"/>
+<rect width="400" height="260" fill="#081F41"/>
 <defs><clipPath id="cFui"><rect width="400" height="260"/></clipPath></defs>
 <g clip-path="url(#cFui)">
 <path d="M-20 4 h36 v12.0 a18.0 18.0 0 0 1 -36 0 z" fill="#3B6D9E" fill-opacity="1" stroke="#A8CBE6" stroke-opacity=".45" stroke-width="1.2"/>
@@ -33,11 +33,11 @@
 <path d="M405.0 21 h36 v12.0 a18.0 18.0 0 0 1 -36 0 z" fill="#3B6D9E" fill-opacity="1" stroke="#A8CBE6" stroke-opacity=".45" stroke-width="1.2"/>
 <g>
 <path d="M160 21 h36 v12.0 a18.0 18.0 0 0 1 -36 0 z" fill="#2A5075" fill-opacity="1" stroke="#A8CBE6" stroke-opacity=".45" stroke-width="1.2"/>
-<path d="M176 24 l-5 12 l7 5 l-4 9" stroke="#E1712C" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M176 24 l-5 12 l7 5 l-4 9" stroke="#F26205" stroke-width="2.4" fill="none" stroke-linecap="round"/>
 </g>
 <rect x="-10" y="72" width="420" height="9" fill="#B9CEDD"/>
-<rect x="-10" y="81" width="420" height="46" fill="#E1712C" fill-opacity=".13"/>
-<g stroke="#F5B98C" stroke-opacity=".45" stroke-width="2">
+<rect x="-10" y="81" width="420" height="46" fill="#F26205" fill-opacity=".13"/>
+<g stroke="#FBC49B" stroke-opacity=".45" stroke-width="2">
 <line x1="-40" y1="81" x2="-86" y2="127"/>
 <line x1="-24" y1="81" x2="-70" y2="127"/>
 <line x1="-8" y1="81" x2="-54" y2="127"/>
@@ -75,7 +75,7 @@
 <rect x="-10" y="127" width="420" height="12" fill="#DCD6CB"/>
 <ellipse cx="252" cy="139" rx="52" ry="13" fill="#8A6A46" fill-opacity=".8"/>
 <ellipse cx="252" cy="139" rx="30" ry="7.5" fill="#6B4E30" fill-opacity=".9"/>
-<path d="M178 52 L178 76 Q178 96 210 104 Q244 112 250 136" stroke="#F0A470" stroke-width="2.6" fill="none" stroke-dasharray="6 5" stroke-linecap="round"/>
+<path d="M178 52 L178 76 Q178 96 210 104 Q244 112 250 136" stroke="#FBA36A" stroke-width="2.6" fill="none" stroke-dasharray="6 5" stroke-linecap="round"/>
 <path d="M252 152 q7 12 0 17 q-7 -5 0 -17 z" fill="#CBD5DD"/>
 <path d="M252 196 q6 10 0 14 q-6 -4 0 -14 z" fill="#CBD5DD" fill-opacity=".55"/>
 </g>

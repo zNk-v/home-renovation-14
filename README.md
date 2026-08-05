@@ -10,6 +10,7 @@ Angle imposé : **couvreur d'abord**, les autres corps de métier en second plan
 
 | Section | Contenu |
 |---------|---------|
+| En-tête | Pictogramme du logo sur pastille claire + nom composé, mention 24h/24, bouton d'appel |
 | Hero | Photo de toiture plein cadre, urgence 24h/24, téléphone, trois arguments |
 | Atouts | Bande blanche à quatre colonnes juste sous le hero : urgence, fuite, devis, décennale |
 | Toiture | 4 prestations, chacune avec son illustration |
@@ -141,7 +142,9 @@ img/gen_hero.py img/gen_cut.py sources du hero et de la coupe
 img/gen_cards.py               sources des 6 illustrations de section
 img/_hero.svg   img/_cut.svg   hero et coupe, générés
 img/ill-*.svg                  illustrations de section, générées
-img/favicon.svg  favicon.ico  img/apple-touch-icon.png
+img/logo-mark.png              pictogramme du client, détouré, 720 px
+img/logo-mark-360.png          même pictogramme, taille servie
+favicon.ico  img/favicon-512.png  img/apple-touch-icon.png
 img/hero-toiture.jpg           photo du hero, 1800 px
 img/hero-toiture-900.jpg       même photo, servie sous 600 px de large
 og-image.jpg                   1200×630, aperçu WhatsApp / Messenger
@@ -175,6 +178,8 @@ des six repères ; si la coupe change, il faut recopier ces pourcentages dans le
   déclenchés par un `IntersectionObserver` à 30 % de visibilité. Sans JavaScript,
   ou en `prefers-reduced-motion`, tout s'affiche d'emblée.
 - Un seul numéro de téléphone sur toute la page : `tel:+33658941908`.
+- Palette relevée sur le logo vectoriel, pas sur la photo du flyer : 34 paires
+  texte/fond re-testées après le changement, aucune sous AA, minimum 4,91:1.
 - Hero photo : contraste calculé dans le pire cas, c'est-à-dire un pixel de photo blanc pur
   sous le voile dégradé. 15,4:1 à gauche où se pose le titre, 5,7:1 au bord droit du bloc
   de texte. AA tenu sur toute la largeur, quelle que soit la zone de l'image dessous.

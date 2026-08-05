@@ -5,6 +5,7 @@
 set -e
 python3 img/gen_hero.py
 python3 img/gen_cut.py          # imprime les positions des repères de la coupe
+python3 img/gen_cards.py
 python3 - <<'PY'
 tpl = open('index.tpl.html').read()
 hero = open('img/_hero.svg').read()

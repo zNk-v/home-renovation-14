@@ -13,12 +13,12 @@
 
 /* ---------- Tokens ---------- */
 :root{
-  --ardoise:#1B3A5F;
-  --ardoise-nuit:#12253C;
-  --ardoise-clair:#2C5480;
-  --tuile:#E1712C;
-  --tuile-fonce:#B34E12;
-  --tuile-clair:#F0A470;
+  --ardoise:#10305C;
+  --ardoise-nuit:#081F41;
+  --ardoise-clair:#24548F;
+  --tuile:#F26205;
+  --tuile-fonce:#C24A02;
+  --tuile-clair:#FBA36A;
   --nacre:#F5F2EC;
   --galet:#5C6875;
   --sable:#E4DED2;
@@ -92,7 +92,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   text-decoration:none;cursor:pointer;line-height:1.2;transition:background .15s,border-color .15s,color .15s;
 }
 .btn-tel{background:var(--tuile-fonce);color:#fff}
-.btn-tel:hover{background:#993f0b}
+.btn-tel:hover{background:#A03D02}
 .btn-ghost{background:transparent;color:var(--ardoise);border-color:var(--ardoise)}
 .btn-ghost:hover{background:var(--ardoise);color:#fff}
 .dark .btn-ghost{color:#fff;border-color:rgba(255,255,255,.5)}
@@ -115,7 +115,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .mark-txt b{display:block;font-size:20px;letter-spacing:.01em}
 .mark-txt span{display:block;font-size:11px;letter-spacing:.18em;color:var(--tuile-clair);font-weight:600}
 
-.nav{display:flex;gap:26px}
+.nav{display:flex;gap:22px;flex:none}
 .nav a{
   font-size:14.5px;font-weight:600;color:rgba(255,255,255,.82);text-decoration:none;
   padding:6px 0;border-bottom:2px solid transparent;
@@ -335,7 +335,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   border-radius:var(--r);padding:13px 14px;
 }
 .champ textarea{resize:vertical;min-height:92px}
-.champ select{appearance:none;background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath fill='%23F0A470' d='M7 9 0 2l2-2 5 5 5-5 2 2z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:38px}
+.champ select{appearance:none;background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath fill='%23FBA36A' d='M7 9 0 2l2-2 5 5 5-5 2 2z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:38px}
 .champ select option{background:var(--ardoise-nuit);color:#fff}
 .champ input::placeholder,.champ textarea::placeholder{color:rgba(255,255,255,.42)}
 .champ input:focus,.champ select:focus,.champ textarea:focus{background:rgba(255,255,255,.12);border-color:var(--tuile-clair)}
@@ -360,7 +360,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 /* ============================================================
    Footer
    ============================================================ */
-.ftr{background:#0C1A2B;color:rgba(255,255,255,.7);padding:46px 0 34px;font-size:14.5px}
+.ftr{background:#05162F;color:rgba(255,255,255,.7);padding:46px 0 34px;font-size:14.5px}
 .ftr-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:34px}
 .ftr strong{color:#fff;display:block;font-family:var(--display);text-transform:uppercase;letter-spacing:.1em;font-size:12.5px;margin-bottom:12px;font-weight:700}
 .ftr a{color:rgba(255,255,255,.86);text-decoration:none}
@@ -447,19 +447,19 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 /* bandeau urgence dans le hero */
 .urgence-pill{
   display:inline-flex;align-items:center;gap:11px;flex-wrap:wrap;
-  background:rgba(225,113,44,.15);border:1px solid rgba(240,164,112,.55);
+  background:rgba(242,98,5,.15);border:1px solid rgba(251,163,106,.55);
   border-radius:999px;padding:11px 20px 11px 17px;margin:0 0 22px;
   font-size:15.5px;color:var(--tuile-clair);
 }
 .urgence-pill b{color:#fff;font-weight:700}
 .pastille{
   width:11px;height:11px;border-radius:50%;background:var(--tuile);flex:none;
-  box-shadow:0 0 0 0 rgba(225,113,44,.75);animation:battement 2.2s infinite;
+  box-shadow:0 0 0 0 rgba(242,98,5,.75);animation:battement 2.2s infinite;
 }
 @keyframes battement{
-  0%{box-shadow:0 0 0 0 rgba(225,113,44,.7)}
-  70%{box-shadow:0 0 0 11px rgba(225,113,44,0)}
-  100%{box-shadow:0 0 0 0 rgba(225,113,44,0)}
+  0%{box-shadow:0 0 0 0 rgba(242,98,5,.7)}
+  70%{box-shadow:0 0 0 11px rgba(242,98,5,0)}
+  100%{box-shadow:0 0 0 0 rgba(242,98,5,0)}
 }
 @media (prefers-reduced-motion:reduce){.pastille{animation:none}}
 
@@ -490,7 +490,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 }
 .atouts-cta b{font-family:var(--display);font-weight:700;font-size:23px;letter-spacing:.03em;
   font-variant-numeric:tabular-nums;vertical-align:-1px;margin-left:4px}
-.atouts-cta:hover{background:#993f0b}
+.atouts-cta:hover{background:#A03D02}
 .atouts-cta svg{flex:none}
 
 @media (max-width:920px){
@@ -533,12 +533,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   position:absolute;inset:0;z-index:1;pointer-events:none;
   background:
     linear-gradient(96deg,
-      rgba(11,25,42,.94) 0%,
-      rgba(11,25,42,.88) 36%,
-      rgba(13,31,52,.68) 56%,
-      rgba(16,38,63,.34) 76%,
-      rgba(18,42,68,.20) 100%),
-    linear-gradient(to top, rgba(11,25,42,.62) 0%, rgba(11,25,42,0) 42%);
+      rgba(4,17,38,.94) 0%,
+      rgba(4,17,38,.88) 36%,
+      rgba(7,25,54,.68) 56%,
+      rgba(10,32,66,.34) 76%,
+      rgba(12,36,70,.20) 100%),
+    linear-gradient(to top, rgba(4,17,38,.62) 0%, rgba(4,17,38,0) 42%);
 }
 .hero-in{position:relative;z-index:2;display:block;padding:78px 0 84px}
 .hero-txt{max-width:620px}
@@ -555,4 +555,28 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 @media (max-width:520px){
   .hero-photo{height:190px}
 }
+
+/* ============================================================
+   Logo — le pictogramme du client
+   Ses aplats blancs et son bleu marine profond disparaîtraient sur l'en-tête
+   sombre : on le pose sur une pastille claire, comme sur son flyer.
+   ============================================================ */
+.mark-logo{
+  height:34px;width:auto;flex:none;
+  background:var(--nacre);border-radius:4px;padding:5px 8px;
+}
+.mark{gap:12px}
+.mark-txt b,.mark-txt span{white-space:nowrap}
+@media (max-width:520px){
+  .mark-logo{height:30px;padding:4px 6px}
+  .mark-txt b{font-size:17px}
+  .mark-txt span{font-size:10px;letter-spacing:.14em}
+}
+@media (max-width:330px){
+  .mark-txt{display:none}
+}
+
+.ftr-logo{
+  height:54px;width:auto;background:var(--nacre);border-radius:5px;
+  padding:7px 10px;margin:0 0 16px;
 }

@@ -26,8 +26,8 @@ s.append('<linearGradient id="gSlope" x1=".15" y1="0" x2=".55" y2="1">'
 s.append('<linearGradient id="gWall" x1="0" y1="0" x2="0" y2="1">'
          '<stop offset="0" stop-color="#15304E"/><stop offset="1" stop-color="#102640"/></linearGradient>')
 s.append('<linearGradient id="gBeam" x1="1" y1="0" x2="0" y2="0">'
-         '<stop offset="0" stop-color="#F0A470" stop-opacity=".30"/>'
-         '<stop offset="1" stop-color="#F0A470" stop-opacity="0"/></linearGradient>')
+         '<stop offset="0" stop-color="#FBA36A" stop-opacity=".30"/>'
+         '<stop offset="1" stop-color="#FBA36A" stop-opacity="0"/></linearGradient>')
 s.append('</defs>')
 
 # ---------- fond ----------
@@ -61,8 +61,8 @@ s.append('</g>')
 s.append('<g>')
 s.append('<path d="M504 286 L516 166 L530 166 L540 286 Z" fill="#22456B"/>')
 s.append('<rect x="512" y="157" width="22" height="10" fill="#22456B"/>')
-s.append('<rect x="517" y="136" width="12" height="21" fill="#2C5480"/>')
-s.append('<rect x="517" y="141" width="12" height="7" fill="#E1712C" fill-opacity=".9"/>')
+s.append('<rect x="517" y="136" width="12" height="21" fill="#24548F"/>')
+s.append('<rect x="517" y="141" width="12" height="7" fill="#F26205" fill-opacity=".9"/>')
 s.append('</g>')
 
 # ---------- façade sous l'égout ----------
@@ -131,7 +131,7 @@ s.append(f'<rect x="{f(cx+3)}" y="{f(cy-22)}" width="13" height="17" rx="1" fill
 s.append('</g>')
 
 # ---------- faîtage, rive, gouttière ----------
-s.append(f'<path d="M{P(RL)} L{P(RR)}" stroke="#E1712C" stroke-width="7" stroke-linecap="round"/>')
+s.append(f'<path d="M{P(RL)} L{P(RR)}" stroke="#F26205" stroke-width="7" stroke-linecap="round"/>')
 s.append(f'<path d="M{P(EL)} L{P(RL)}" stroke="#0E2138" stroke-width="5" stroke-linecap="round"/>')
 s.append(f'<path d="M{P(RR)} L{P(ER)}" stroke="#0E2138" stroke-width="5" stroke-linecap="round"/>')
 s.append(f'<path d="M{P(EL)} L{P(ER)}" stroke="#93A3B1" stroke-width="9" stroke-linecap="round"/>')
