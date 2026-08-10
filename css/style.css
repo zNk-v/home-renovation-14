@@ -580,3 +580,33 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   height:54px;width:auto;background:var(--nacre);border-radius:5px;
   padding:7px 10px;margin:0 0 16px;
 }
+
+/* ============================================================
+   Réalisations — les photos de chantier du client
+   ============================================================ */
+.realisations{background:var(--blanc);border-top:1px solid var(--sable)}
+.galerie{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:22px 20px;margin-top:38px;
+}
+.chantier{margin:0}
+.chantier img{
+  display:block;width:100%;aspect-ratio:4/3;object-fit:cover;
+  background:var(--ardoise-nuit);border-radius:3px;
+}
+.chantier figcaption{
+  margin-top:9px;font-size:13.5px;line-height:1.45;color:var(--galet);
+  border-left:2px solid var(--tuile);padding-left:9px;
+}
+/* les quatre premières, la couverture, prennent plus de place */
+.chantier:nth-child(-n+2){grid-column:span 2}
+.chantier:nth-child(-n+2) img{aspect-ratio:16/10}
+.chantier:nth-child(-n+2) figcaption{font-size:14.5px}
+
+@media (max-width:900px){
+  .galerie{grid-template-columns:repeat(2,1fr);gap:20px 16px}
+  .chantier:nth-child(-n+2){grid-column:span 2}
+}
+@media (max-width:560px){
+  .galerie{grid-template-columns:1fr}
+  .chantier:nth-child(-n+2){grid-column:span 1}
+}

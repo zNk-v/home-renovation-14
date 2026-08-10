@@ -109,8 +109,15 @@ Six visuels vectoriels dans la palette de marque, posés sur fond `--ardoise-nui
 peser comme des photos : entretien, démoussage, fuite, zinguerie, littoral, second œuvre.
 Ils sont générés par `img/gen_cards.py`, pas dessinés à la main, et affichés **comme des
 illustrations** — jamais comme des chantiers du client. Le bandeau littoral porte sa
-légende en clair. Ils comblent le vide en attendant les vraies photos, qui restent le
-levier de conversion le plus fort.
+légende en clair.
+
+Depuis l'arrivée des photos de Christopher, ils ne tiennent plus la place de la preuve :
+c'est la section **Réalisations** qui la porte. Ils restent sur les quatre cartes de
+prestation, où ils jouent un autre rôle — montrer un mécanisme (l'ardoise déposée, le
+trajet d'une infiltration) plutôt qu'un chantier. Les mélanger avec des photos dans la
+même rangée casserait la lecture : soit les quatre sont des schémas, soit les quatre sont
+des photos. Le jour où il y aura une photo de démoussage et une de recherche de fuite,
+la rangée pourra basculer d'un bloc.
 
 ---
 

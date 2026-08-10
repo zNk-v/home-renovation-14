@@ -16,6 +16,7 @@ Angle imposé : **couvreur d'abord**, les autres corps de métier en second plan
 | Toiture | 4 prestations, chacune avec son illustration |
 | Coupe interactive | 6 repères cliquables sur une coupe de rampant (l'élément signature), **montée couche par couche au scroll** |
 | Climat de la côte | Vent d'ouest, air salé, humidité + bandeau littoral — le contenu non transposable |
+| Réalisations | 11 photos de chantiers du client, recadrées et légendées |
 | Le reste | 6 métiers secondaires + illustration, bande compacte, volontairement en retrait |
 | Méthode | 4 étapes |
 | Zone | 24 communes en liste texte (SEO local) |
@@ -82,41 +83,41 @@ Le flyer promet le devis et le déplacement gratuits, pas de délai. Si Christop
 confirme qu'il rappelle sous 24 h, l'ajouter dans le `<title>`, le hero et le
 formulaire : c'est un argument qui convertit.
 
-### 6. Photos de chantiers
+### 6. Photos de chantiers — deux points à confirmer
 
-**Le site utilise pour l'instant des illustrations vectorielles, pas des photos.**
-Elles sont dessinées dans la palette de la marque et affichées comme illustrations,
-jamais présentées comme des chantiers de Christopher. Le bandeau du littoral porte
-d'ailleurs la mention « Illustration » en légende.
+La section **Réalisations** est en ligne avec 11 photos fournies par Christopher.
+Elles venaient de captures d'écran Snapchat : l'interface a été détourée, la photo
+couchée redressée, chaque fichier renommé d'après son contenu. Les versions pleine
+résolution renommées sont dans `Desktop/Site internet client/Calvados/renommees/`.
 
-Elles tiennent la place. Elles ne remplacent pas des photos réelles : sur un site
-d'artisan, la photo du vrai chantier est ce qui fait basculer un visiteur.
-Il en faut 8 à 10, prises au téléphone, en lumière du jour. Ensuite, coller cette
-section entre `#climat` et `#autres` :
+**À confirmer avant une mise en ligne sur son domaine :**
 
-```html
-<section class="sect" id="realisations">
-  <div class="wrap">
-    <p class="sur">Réalisations</p>
-    <h2>Des chantiers de la côte</h2>
-    <div class="grid4" style="margin-top:36px">
-      <img src="img/chantier-1.jpg" alt="Démoussage de toiture à Ouistreham" width="600" height="450">
-      <!-- … -->
-    </div>
-  </div>
-</section>
-```
+1. **Que ces onze chantiers sont bien les siens.** Elles arrivent par Snapchat, rien
+   ne le prouve côté site. Une photo qui ne serait pas de lui n'a rien à faire dans
+   une section « Réalisations ».
+2. **Le décalage entre les photos et le positionnement.** Sept des onze montrent de la
+   construction neuve, de la charpente ou du gros œuvre. Le site, lui, est bâti sur
+   l'entretien, le démoussage et l'urgence fuite, d'après son flyer. Soit son activité
+   réelle est plus large que le flyer ne le dit et il faut élargir le discours du site,
+   soit il faut des photos d'entretien et de démoussage pour que les deux concordent.
 
-Photos réelles uniquement. Pas de banque d'images.
+Il manque toujours des photos de **démoussage** et de **recherche de fuite** : ce sont
+les deux prestations mises en avant, et les seules sans photo. Les cartes correspondantes
+gardent leur illustration.
 
-Pour remplacer une illustration de carte par une photo, il suffit de changer le `src` :
+Pour remplacer une illustration de carte par une photo, coller le fichier dans
+`img/chantiers/` puis changer le `src` :
 
 ```html
-<img class="presta-ill" src="img/chantier-demoussage.jpg" alt="…" width="400" height="260" loading="lazy">
+<img class="presta-ill" src="img/chantiers/12-demoussage.jpg" alt="…" width="400" height="260" loading="lazy">
 ```
 
-Le gabarit est déjà en 400×260 avec `object-fit: cover`, une photo s'y insère sans
-retoucher le CSS.
+Le gabarit est en 400×260 avec `object-fit: cover`, une photo s'y insère sans toucher au CSS.
+
+Pour ajouter une photo à la galerie, la déposer dans `img/chantiers/` (JPEG, 1000 px de
+large, qualité 80) et ajouter une `<figure class="chantier">` dans `index.tpl.html`.
+Les deux premières tuiles occupent deux colonnes : y mettre les meilleures photos de
+couverture. `object-position` se règle par photo si le sujet n'est pas centré.
 
 ### 7. Nom de domaine
 
@@ -147,6 +148,7 @@ img/logo-mark-360.png          même pictogramme, taille servie
 favicon.ico  img/favicon-512.png  img/apple-touch-icon.png
 img/hero-toiture.jpg           photo du hero, 1800 px
 img/hero-toiture-900.jpg       même photo, servie sous 600 px de large
+img/chantiers/                 11 photos de chantiers, 1000 px, JPEG q80 (1,7 Mo au total)
 og-image.jpg                   1200×630, aperçu WhatsApp / Messenger
 robots.txt  sitemap.xml
 mentions-legales.html  politique-confidentialite.html
