@@ -186,6 +186,10 @@ des six repères ; si la coupe change, il faut recopier ces pourcentages dans le
   déclenchés par un `IntersectionObserver` à 30 % de visibilité. Sans JavaScript,
   ou en `prefers-reduced-motion`, tout s'affiche d'emblée.
 - Un seul numéro de téléphone sur toute la page : `tel:+33658941908`.
+- Ancres : `scroll-margin-top:96px` sur les sections, sinon l'en-tête collant recouvre
+  le haut de la section visée. Les sept liens du menu et ceux du pied de page vérifiés.
+- Barre d'appel mobile : une seule ligne de 54 px. Sur deux lignes elle mangeait l'écran
+  en s'ajoutant à la barre d'URL du navigateur.
 - Palette relevée sur le logo vectoriel, pas sur la photo du flyer : 34 paires
   texte/fond re-testées après le changement, aucune sous AA, minimum 4,91:1.
 - Hero photo : contraste calculé dans le pire cas, c'est-à-dire un pixel de photo blanc pur
