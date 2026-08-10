@@ -13,7 +13,7 @@ Angle imposé : **couvreur d'abord**, les autres corps de métier en second plan
 | En-tête | Pictogramme du logo sur pastille claire + nom composé, mention 24h/24, bouton d'appel |
 | Hero | Photo de toiture plein cadre, urgence 24h/24, téléphone, trois arguments |
 | Atouts | Bande blanche à quatre colonnes juste sous le hero : urgence, fuite, devis, décennale |
-| Toiture | 4 prestations, chacune avec son illustration |
+| Toiture | 4 prestations, chacune avec une photo de ses chantiers |
 | Coupe interactive | 6 repères cliquables sur une coupe de rampant (l'élément signature), **montée couche par couche au scroll** |
 | Climat de la côte | Vent d'ouest, air salé, humidité + bandeau littoral — le contenu non transposable |
 | Réalisations | 11 photos de chantiers du client, recadrées et légendées |
@@ -101,18 +101,23 @@ résolution renommées sont dans `Desktop/Site internet client/Calvados/renommee
    réelle est plus large que le flyer ne le dit et il faut élargir le discours du site,
    soit il faut des photos d'entretien et de démoussage pour que les deux concordent.
 
-Il manque toujours des photos de **démoussage** et de **recherche de fuite** : ce sont
-les deux prestations mises en avant, et les seules sans photo. Les cartes correspondantes
-gardent leur illustration.
+Les quatre cartes de prestation sont passées en photo, chacune recadrée au gabarit
+depuis une photo de la galerie :
 
-Pour remplacer une illustration de carte par une photo, coller le fichier dans
-`img/chantiers/` puis changer le `src` :
+| Carte | Source | Ce que montre la photo |
+|-------|--------|------------------------|
+| Entretien de toiture | `02-pose-tuiles` | Remplacement de tuiles, liteaux et écran apparents |
+| Démoussage | `03-travaux-toiture` | Lance en action, brume visible sur les tuiles |
+| Réparation & fuite | `04-intervention-toiture` | Deux couvreurs au bord du toit, échelles en place |
+| Zinguerie & gouttières | `01-couvreur-echelle` | Gouttière zinc en bas de pente, sous-face et chevrons |
 
-```html
-<img class="presta-ill" src="img/chantiers/12-demoussage.jpg" alt="…" width="400" height="260" loading="lazy">
-```
+Les alt décrivent ce qui est réellement sur l'image, jamais la prestation nommée par la
+carte. La seule qui reste approximative est **Réparation & recherche de fuite** : aucune
+photo ne montre une fuite ni une recherche de fuite, celle retenue montre une intervention
+sur toiture. C'est la première à remplacer dès qu'il en aura une vraie.
 
-Le gabarit est en 400×260 avec `object-fit: cover`, une photo s'y insère sans toucher au CSS.
+Les fichiers sont `img/presta-*.jpg`, cadrés au ratio 400/260. Pour en changer un, poser
+le nouveau fichier au même ratio et changer le `src`.
 
 Pour ajouter une photo à la galerie, la déposer dans `img/chantiers/` (JPEG, 1000 px de
 large, qualité 80) et ajouter une `<figure class="chantier">` dans `index.tpl.html`.
@@ -142,7 +147,8 @@ fonts/                         Barlow Condensed + Public Sans, auto-hébergées
 img/gen_hero.py img/gen_cut.py sources du hero et de la coupe
 img/gen_cards.py               sources des 6 illustrations de section
 img/_hero.svg   img/_cut.svg   hero et coupe, générés
-img/ill-*.svg                  illustrations de section, générées
+img/ill-climat.svg ill-autres.svg  les deux illustrations restantes, générées
+img/presta-*.jpg               les 4 photos des cartes de prestation
 img/logo-mark.png              pictogramme du client, détouré, 720 px
 img/logo-mark-360.png          même pictogramme, taille servie
 favicon.ico  img/favicon-512.png  img/apple-touch-icon.png

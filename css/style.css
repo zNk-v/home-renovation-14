@@ -394,12 +394,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 /* ============================================================
    Illustrations de section
    ============================================================ */
-.presta-ill{display:block;width:100%;aspect-ratio:400/260;object-fit:cover;background:var(--ardoise-nuit)}
+.presta-ill{display:block;width:100%;height:auto;aspect-ratio:400/260;object-fit:cover;background:var(--ardoise-nuit)}
 .presta{padding:0 0 32px}
 .presta-txt{padding:24px 26px 0}
 
 .bandeau{
-  display:block;width:100%;aspect-ratio:1000/300;object-fit:cover;
+  display:block;width:100%;height:auto;aspect-ratio:1000/300;object-fit:cover;
   margin:34px 0 0;background:var(--ardoise-nuit);border:1px solid var(--sable);
 }
 .bandeau-legende{
@@ -407,7 +407,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 }
 
 .sec-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:34px;align-items:center;margin-top:26px}
-.sec-ill{display:block;width:100%;aspect-ratio:400/260;object-fit:cover;background:var(--ardoise-nuit)}
+.sec-ill{display:block;width:100%;height:auto;aspect-ratio:400/260;object-fit:cover;background:var(--ardoise-nuit)}
 .sec-grid .sec-list{margin:0}
 @media (max-width:760px){.sec-grid{grid-template-columns:1fr;gap:22px}}
 
@@ -590,7 +590,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 }
 .chantier{margin:0}
 .chantier img{
-  display:block;width:100%;aspect-ratio:4/3;object-fit:cover;
+  display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;
   background:var(--ardoise-nuit);border-radius:3px;
 }
 .chantier figcaption{
