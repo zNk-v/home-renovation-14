@@ -166,6 +166,14 @@ mentions-legales.html  politique-confidentialite.html
 ./build.sh
 ```
 
+`build.sh` calcule aussi une empreinte du CSS et du JS et l'ajoute à leur URL
+(`css/style.css?v=3974c232`). Sans ça, GitHub Pages sert les assets en `max-age=600` :
+un visiteur déjà venu reçoit le nouveau HTML avec l'ancienne feuille pendant dix minutes,
+et la page s'affiche cassée. L'empreinte change dès que le fichier change, donc le
+navigateur ne peut plus jamais associer un HTML neuf à un CSS périmé. **Toujours relancer
+`./build.sh` après avoir touché `css/style.css` ou `js/app.js`**, même si le HTML n'a pas
+bougé — c'est ce qui met l'empreinte à jour.
+
 Les deux illustrations sont produites par des scripts Python : la géométrie est
 calculée, pas dessinée à la main. `gen_cut.py` imprime à l'exécution les positions
 des six repères ; si la coupe change, il faut recopier ces pourcentages dans les
