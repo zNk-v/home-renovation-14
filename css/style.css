@@ -116,19 +116,30 @@ main[id]{scroll-margin-top:96px}
   border-bottom:1px solid rgba(255,255,255,.1);
 }
 .hdr-in{display:flex;align-items:center;gap:20px;min-height:66px}
-.mark{display:flex;align-items:center;gap:11px;text-decoration:none;margin-right:auto;padding:6px 0}
+.mark{display:flex;align-items:center;gap:11px;flex:none;text-decoration:none;margin-right:auto;padding:6px 0}
 .mark-txt{font-family:var(--display);font-weight:700;text-transform:uppercase;line-height:.95;color:#fff}
 .mark-txt b{display:block;font-size:20px;letter-spacing:.01em}
 .mark-txt span{display:block;font-size:11px;letter-spacing:.18em;color:var(--tuile-clair);font-weight:600}
 
-.nav{display:flex;gap:22px;flex:none}
+.nav{display:flex;gap:18px;flex:none}
 .nav a{
-  font-size:14.5px;font-weight:600;color:rgba(255,255,255,.82);text-decoration:none;
+  font-size:14px;font-weight:600;color:rgba(255,255,255,.82);text-decoration:none;
   padding:6px 0;border-bottom:2px solid transparent;
 }
 .nav a:hover{color:#fff;border-bottom-color:var(--tuile)}
-.hdr .btn{padding:11px 18px;font-size:15px}
-@media (max-width:960px){.nav{display:none}}
+.hdr .btn{padding:9px 16px;font-size:15px}
+/* La mention 24h/24 tient dans le bouton plutôt qu'à côté : à côté, l'en-tête
+   n'avait plus un pixel de marge et le moindre écart de rendu le faisait déborder. */
+.hdr-cta{align-items:center;gap:10px;flex:none}
+.hdr-cta-txt{display:flex;flex-direction:column;align-items:flex-start;line-height:1.05}
+.hdr-cta-lab{
+  font-family:var(--display);font-weight:700;text-transform:uppercase;
+  font-size:11px;letter-spacing:.1em;color:rgba(255,255,255,.9);
+}
+.hdr-cta .tel-num{font-size:20px}
+/* Le menu se retire tant qu'il ne reste pas au moins ~40 px de marge, sinon
+   l'en-tête tient au pixel près et déborde au moindre écart de rendu. */
+@media (max-width:1100px){.nav{display:none}}
 @media (max-width:620px){.hdr .btn-tel{display:none}}
 
 /* ============================================================
@@ -440,15 +451,6 @@ main[id]{scroll-margin-top:96px}
 /* ============================================================
    Urgence 24h/24 — les quatre arguments qui font décrocher
    ============================================================ */
-
-/* mention collée au bouton d'appel de l'en-tête */
-.hdr-247{
-  display:flex;flex-direction:column;line-height:1.15;text-align:right;
-  font-family:var(--display);text-transform:uppercase;letter-spacing:.08em;
-  font-size:11px;color:rgba(255,255,255,.6);font-weight:600;
-}
-.hdr-247 b{font-size:14px;color:var(--tuile-clair);letter-spacing:.05em;font-weight:700}
-@media (max-width:860px){.hdr-247{display:none}}
 
 /* bandeau urgence dans le hero */
 .urgence-pill{

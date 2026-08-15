@@ -10,7 +10,7 @@ Angle imposé : **couvreur d'abord**, les autres corps de métier en second plan
 
 | Section | Contenu |
 |---------|---------|
-| En-tête | Pictogramme du logo sur pastille claire + nom composé, mention 24h/24, bouton d'appel |
+| En-tête | Pictogramme du logo sur pastille claire + nom composé, bouton d'appel portant la mention 24h/24 |
 | Hero | Photo de toiture plein cadre, urgence 24h/24, téléphone, trois arguments |
 | Atouts | Bande blanche à quatre colonnes juste sous le hero : urgence, fuite, devis, décennale |
 | Toiture | 4 prestations, chacune avec une photo de ses chantiers |
@@ -190,6 +190,9 @@ des six repères ; si la coupe change, il faut recopier ces pourcentages dans le
   le haut de la section visée. Les sept liens du menu et ceux du pied de page vérifiés.
 - Barre d'appel mobile : une seule ligne de 54 px. Sur deux lignes elle mangeait l'écran
   en s'ajoutant à la barre d'URL du navigateur.
+- En-tête : marque non compressible, mention 24h/24 dans le bouton plutôt qu'à côté,
+  menu retiré sous 1100 px. Marge mesurée à 42 px au point le plus serré (1105 px), et
+  aucun élément comprimé de 1920 à 320 px.
 - Palette relevée sur le logo vectoriel, pas sur la photo du flyer : 34 paires
   texte/fond re-testées après le changement, aucune sous AA, minimum 4,91:1.
 - Hero photo : contraste calculé dans le pire cas, c'est-à-dire un pixel de photo blanc pur

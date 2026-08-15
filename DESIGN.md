@@ -126,8 +126,13 @@ la rangée pourra basculer d'un bloc.
 Page unique, mobile-first, contenu max 1140 px. Alternance `--nacre` / `--ardoise-nuit`
 sur trois respirations seulement.
 
-**En-tête** — wordmark, nav ancre, bouton « Appeler » orange. Mobile : wordmark + barre
-d'appel sticky en bas.
+**En-tête** — pictogramme sur pastille claire + wordmark, nav ancre, bouton d'appel orange
+sur deux lignes : « URGENCE 24H/24 · 7J/7 » au-dessus du numéro. La mention est dans le
+bouton et non à côté : posée à côté, l'en-tête tenait au pixel près à 1140 px de contenu
+et le moindre écart de rendu faisait passer le wordmark sous le menu. La marque est
+`flex:none` — compressible, son texte en `nowrap` débordait au lieu de se réduire.
+Le menu se retire sous 1100 px, seuil choisi pour garder ~40 px de marge.
+Mobile : wordmark + barre d'appel sticky en bas, une ligne de 54 px.
 
 **1 · Hero (fond ardoise-nuit, split)** — le sujet, la zone, les deux promesses réelles du
 flyer, puis le téléphone en gros. À droite, la coupe de toit en version décorative.
