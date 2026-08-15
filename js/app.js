@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  var TEL = '+33658941908';
+  var TEL = '+33609710389';
 
   /* ⚠️ À RENSEIGNER : e-mail où arrivent les demandes de devis.
      Tant que la chaîne est vide, le formulaire bascule directement sur le SMS
@@ -203,7 +203,7 @@
              + 'body=' + encodeURIComponent(resume());
     merciTxt.innerHTML = "L'envoi automatique n'a pas abouti. Votre SMS s'ouvre avec le résumé "
       + "de la demande&nbsp;: il n'y a plus qu'à l'envoyer.<br>Ou appelez le "
-      + '<a href="tel:' + TEL + '">06&nbsp;58&nbsp;94&nbsp;19&nbsp;08</a>.';
+      + '<a href="tel:' + TEL + '">06&nbsp;09&nbsp;71&nbsp;03&nbsp;89</a>.';
     boite.classList.add('done');
     merci.classList.add('on');
     merci.scrollIntoView({ block: 'center' });

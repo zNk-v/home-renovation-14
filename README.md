@@ -55,7 +55,7 @@ var CONTACT_EMAIL = 'adresse@exemple.fr';
 ```
 
 Tant que la chaîne est vide, le formulaire bascule sur un SMS pré-rempli vers le
-06 58 94 19 08. Ça marche, mais l'e-mail est plus confortable. Premier envoi :
+06 09 71 03 89. Ça marche, mais l'e-mail est plus confortable. Premier envoi :
 formsubmit.co renvoie un mail de confirmation à valider une fois.
 
 ### 3. Vérifier l'adresse légale
@@ -185,7 +185,7 @@ des six repères ; si la coupe change, il faut recopier ces pourcentages dans le
 - Montage au scroll : les 9 groupes de la coupe apparaissent en cascade sur ~1,2 s,
   déclenchés par un `IntersectionObserver` à 30 % de visibilité. Sans JavaScript,
   ou en `prefers-reduced-motion`, tout s'affiche d'emblée.
-- Un seul numéro de téléphone sur toute la page : `tel:+33658941908`.
+- Un seul numéro de téléphone sur toute la page : `tel:+33609710389`.
 - Ancres : `scroll-margin-top:96px` sur les sections, sinon l'en-tête collant recouvre
   le haut de la section visée. Les sept liens du menu et ceux du pied de page vérifiés.
 - Barre d'appel mobile : une seule ligne de 54 px. Sur deux lignes elle mangeait l'écran

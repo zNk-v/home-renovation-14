@@ -139,7 +139,7 @@ flyer, puis le téléphone en gros. À droite, la coupe de toit en version déco
 │                                 │   dessinée ] │
 │ Entretien, démoussage, réparat. │              │
 │ ✓ Devis gratuit  ✓ Déplacement  │              │
-│ [ ☎ 06 58 94 19 08 ] [ Devis ]  │              │
+│ [ ☎ 06 09 71 03 89 ] [ Devis ]  │              │
 └────────────────────────────────┴──────────────┘
 ```
 
